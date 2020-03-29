@@ -2,7 +2,7 @@
 This project is a technical DevOps challenge for endpoint. (Let me know when you get it and I will delete it.
 
 ## About
-This is a terraform project that will spin up all the needed resources for deploying a `ghost` container in a managed beanstalk cluster using cloudbuild and ecr.
+This is a terraform project that will spin up all the needed resources for deploying a `ghost` container in a managed beanstalk cluster using AWS CodeBuild and ECR.
 
 ## File Structure
 ```
