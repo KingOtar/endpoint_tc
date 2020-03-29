@@ -94,5 +94,3 @@ eb init
 eb deploy 
 
 echo -e "Complete"
-echo -e
-echo -e "URI: $(aws elasticbeanstalk describe-environments --environment-names $PROJECT-environment | jq .Environments[0].EndpointURL -r)"
